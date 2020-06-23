@@ -59,3 +59,6 @@ This week we are focusing on understanding web elements and how the web works.
 So far we've built our own local servers using Sinatra and allowed for constant updates via Shotgun meaning that we don't need to restart the server everytime we make a change to our codebase.
 
 We've built a simple website that allows for dynamic interactions and randomly generating names as well as a separate website that allows the user to input a name into the page, click "Submit" and be able to interact with a name.
+
+We've now shifted some of the functionality of the form from the index.erb to the cat_form.erb. This allows us to follow SRP and means that the form is self contained.
+We also tested the functions for the GET and POST functions that we can see happening both in the console log as well as the Chrome web dev tools.
